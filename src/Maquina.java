@@ -436,6 +436,7 @@ public void actionPerformed(ActionEvent arg0) {
 		});
 		btnComprar.setBounds(67, 403, 89, 23);
 		panel.add(btnComprar);
+
 	}
 	
 	
