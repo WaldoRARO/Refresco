@@ -28,6 +28,7 @@ public class Maquina extends JFrame {
 	int fanta=1,coca=2,agua=3,up7=4,pepsi=5,red=6;
 	String cantidades_ingresadas="";
 		 		String mensaje="";
+		 		private JTextField textField;
 	/**
 	 * Launch the application.
 	 */
@@ -440,6 +441,11 @@ public void actionPerformed(ActionEvent arg0) {
 		JButton btnNewButton = new JButton("New button");
 		btnNewButton.setBounds(222, 357, 89, 23);
 		panel.add(btnNewButton);
+		
+		textField = new JTextField();
+		textField.setBounds(222, 404, 86, 20);
+		panel.add(textField);
+		textField.setColumns(10);
 	}
 	
 	
